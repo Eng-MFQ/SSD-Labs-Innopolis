@@ -77,27 +77,27 @@ include CMakeFiles/SSD-Labs-Innopolis.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SSD-Labs-Innopolis.dir/flags.make
 
-CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.o: CMakeFiles/SSD-Labs-Innopolis.dir/flags.make
-CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.o: ../lab1/Lab1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.o -c /Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/lab1/Lab1.cpp
+CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.o: CMakeFiles/SSD-Labs-Innopolis.dir/flags.make
+CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.o: ../Lab4/lab4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.o -c /Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/Lab4/lab4.cpp
 
-CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/lab1/Lab1.cpp > CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.i
+CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/Lab4/lab4.cpp > CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.i
 
-CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/lab1/Lab1.cpp -o CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.s
+CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/Lab4/lab4.cpp -o CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.s
 
 # Object files for target SSD-Labs-Innopolis
 SSD__Labs__Innopolis_OBJECTS = \
-"CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.o"
+"CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.o"
 
 # External object files for target SSD-Labs-Innopolis
 SSD__Labs__Innopolis_EXTERNAL_OBJECTS =
 
-SSD-Labs-Innopolis: CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.o
+SSD-Labs-Innopolis: CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.o
 SSD-Labs-Innopolis: CMakeFiles/SSD-Labs-Innopolis.dir/build.make
 SSD-Labs-Innopolis: CMakeFiles/SSD-Labs-Innopolis.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SSD-Labs-Innopolis"

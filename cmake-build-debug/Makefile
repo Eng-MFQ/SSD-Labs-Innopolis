@@ -143,32 +143,32 @@ SSD-Labs-Innopolis/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SSD-Labs-Innopolis.dir/build.make CMakeFiles/SSD-Labs-Innopolis.dir/build
 .PHONY : SSD-Labs-Innopolis/fast
 
-lab1/Lab1.o: lab1/Lab1.cpp.o
+Lab4/lab4.o: Lab4/lab4.cpp.o
 
-.PHONY : lab1/Lab1.o
+.PHONY : Lab4/lab4.o
 
 # target to build an object file
-lab1/Lab1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SSD-Labs-Innopolis.dir/build.make CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.o
-.PHONY : lab1/Lab1.cpp.o
+Lab4/lab4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SSD-Labs-Innopolis.dir/build.make CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.o
+.PHONY : Lab4/lab4.cpp.o
 
-lab1/Lab1.i: lab1/Lab1.cpp.i
+Lab4/lab4.i: Lab4/lab4.cpp.i
 
-.PHONY : lab1/Lab1.i
+.PHONY : Lab4/lab4.i
 
 # target to preprocess a source file
-lab1/Lab1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SSD-Labs-Innopolis.dir/build.make CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.i
-.PHONY : lab1/Lab1.cpp.i
+Lab4/lab4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SSD-Labs-Innopolis.dir/build.make CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.i
+.PHONY : Lab4/lab4.cpp.i
 
-lab1/Lab1.s: lab1/Lab1.cpp.s
+Lab4/lab4.s: Lab4/lab4.cpp.s
 
-.PHONY : lab1/Lab1.s
+.PHONY : Lab4/lab4.s
 
 # target to generate assembly for a file
-lab1/Lab1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SSD-Labs-Innopolis.dir/build.make CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.s
-.PHONY : lab1/Lab1.cpp.s
+Lab4/lab4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SSD-Labs-Innopolis.dir/build.make CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.s
+.PHONY : Lab4/lab4.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SSD-Labs-Innopolis"
-	@echo "... lab1/Lab1.o"
-	@echo "... lab1/Lab1.i"
-	@echo "... lab1/Lab1.s"
+	@echo "... Lab4/lab4.o"
+	@echo "... Lab4/lab4.i"
+	@echo "... Lab4/lab4.s"
 .PHONY : help
 
 

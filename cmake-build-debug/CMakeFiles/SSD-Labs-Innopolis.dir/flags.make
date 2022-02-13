@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/Ma
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/lab1 
+CXX_INCLUDES = -I/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/lab1 -I/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/lab2 
 

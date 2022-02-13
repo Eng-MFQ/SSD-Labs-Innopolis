@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/main.cpp
+/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/Lab4/lab4.cpp
+lab4.h
+/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/Lab4/lab4.h
+
+/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/Lab4/lab4.h
 iostream
+-
+vector
 -
 

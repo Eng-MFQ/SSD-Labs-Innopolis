@@ -1,23 +1,6 @@
 #include <iostream>
-#include "Lab1.h"
-
-
 using namespace std;
-
-
-void staticLocal() {
-    static int i = 0; // local static variable
-    i++;
-    cout << "i = " << i << endl;
-    cout << "i = " << &i << endl;
-}
-
-void staticLocal2() {
-    static int i = 0; // local static variable
-    i++;
-    cout << "i = " << i << endl;
-    cout << "i = " << &i << endl;
-}
+#include "Lab1Header.h"
 
 
 void printSize() {
@@ -32,19 +15,9 @@ void printSize() {
     cout << "Size of double : " << sizeof(double) << " bytes" << endl;
 }
 
-void swapNumbers(int a, int b) {
-    cout << "The two numbers  are: " << a << " , " << b << endl;
-    a = a + b;
-    b = a - b;
-    a = a - b;
-    cout << "\nAfter swapping The numbers are : " << a << " , " << b << endl;
-}
-
 
 void daysConverter() {
-    int static days, y, m, d;
-    cout << "last time you Converted  " << days << " days to " << endl;
-    cout << "Years : " << y << "\nMonths : " << m << "\nDays : " << d << endl;
+    int days, y, m, d;
     cout << "Enter number of days you want to convert : ";
     cin >> days;
     y = days / 365;
@@ -55,12 +28,37 @@ void daysConverter() {
     cout << "______________ " << endl;
 }
 
+namespace SecondNameSpace{
+    void swapNumbers(int x, int y) {
+        cout << "I don't swap " << x << endl;
+    }
+}
 
+
+int test(int a) ;
 int main() {
-
-
-    daysConverter();
+   double x = 33.768;
+    cout << x << endl;
     return 0;
+}
+
+int test(int a) {
+    if (a > 0)
+        cout << "a is bigger than zero" << endl;
+    else
+        cout << "3" + 5 << endl;
+    return 0;
+}
+
+
+void swapNumbers(int x, int y) {
+    cout << "before swapping x = " << x << endl;
+    cout << "before swapping y = " << y << endl;
+    x = x + y;
+    y = x - y;
+    x = x - y;
+    cout << "after swapping x = " << x << endl;
+    cout << "after swapping y = " << y << endl;
 }
 
 

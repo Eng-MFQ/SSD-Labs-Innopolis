@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/lab1/Lab1.cpp" "/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/cmake-build-debug/CMakeFiles/SSD-Labs-Innopolis.dir/lab1/Lab1.cpp.o"
+  "/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/Lab4/lab4.cpp" "/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/cmake-build-debug/CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../lab1"
+  "../lab2"
   )
 
 # Targets to which this target links.
