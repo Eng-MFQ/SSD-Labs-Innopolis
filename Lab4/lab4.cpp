@@ -4,8 +4,9 @@
 
 #include "lab4.h"
 
-int main() {
 
+int main() {
+    exercise9();
 }
 
 /// What will be printed on The screen
@@ -21,8 +22,8 @@ void exercise1() {
 
 /// What will be printed on The screen
 void exercise2() {
-    B b;    // a is an object of class A
-    B *ptr;// ptr is a pointer to an object of class A
+    B b;
+    B *ptr;
     ptr = &b;
     ptr->increment();
     ptr->print();
@@ -65,7 +66,7 @@ void exercise5() {
 
 /// B b ;
 /// exercise6(b);
-void exercise6(A a) {
+void exercise6(A& a) {
     a.print();
 }
 
@@ -74,7 +75,6 @@ void exercise6(A a) {
 ////
 /**
  * Solution
- * we can't case , and we can't call function from calss A
  * @param a
  */
 void exercise7() {
@@ -83,7 +83,7 @@ void exercise7() {
 //    B *ptr;
 //    ptr = &b;
 //    a=b;
-//    exercise6(b)
+//    exercise6(b);
 //    b.A::print();
 //    a.print();
 //    b=a;
@@ -99,8 +99,8 @@ void exercise8() {
     Triangle trgl;
     rect.set_values(4, 5);
     trgl.set_values(4, 5);
-    rect.output(rect.area());
-    trgl.output(trgl.area());
+    rect.output(rect.area()); //
+    trgl.output(trgl.area());//
 }
 
 /// What will be the output? And WHY?
@@ -115,8 +115,8 @@ void exercise9() {
 /// Use Multiple inheritance Concept to calculate the Perimeter and Area of Rectangle.
 void exercise10() {
     Rectangle2 rect;
-    cout << "Area = "<< rect.getArea(3,5) << endl;
-    cout << "Perimeter = "<< rect.getPerimeter(3,5) << endl;
+    cout << "Area = " << rect.getArea(3, 5) << endl;
+    cout << "Perimeter = " << rect.getPerimeter(3, 5) << endl;
 }
 
 

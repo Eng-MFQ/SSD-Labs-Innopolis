@@ -143,32 +143,32 @@ SSD-Labs-Innopolis/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SSD-Labs-Innopolis.dir/build.make CMakeFiles/SSD-Labs-Innopolis.dir/build
 .PHONY : SSD-Labs-Innopolis/fast
 
-Lab4/lab4.o: Lab4/lab4.cpp.o
+lab5/landlordTemplate/LandlordTemplate.o: lab5/landlordTemplate/LandlordTemplate.cpp.o
 
-.PHONY : Lab4/lab4.o
+.PHONY : lab5/landlordTemplate/LandlordTemplate.o
 
 # target to build an object file
-Lab4/lab4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SSD-Labs-Innopolis.dir/build.make CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.o
-.PHONY : Lab4/lab4.cpp.o
+lab5/landlordTemplate/LandlordTemplate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SSD-Labs-Innopolis.dir/build.make CMakeFiles/SSD-Labs-Innopolis.dir/lab5/landlordTemplate/LandlordTemplate.cpp.o
+.PHONY : lab5/landlordTemplate/LandlordTemplate.cpp.o
 
-Lab4/lab4.i: Lab4/lab4.cpp.i
+lab5/landlordTemplate/LandlordTemplate.i: lab5/landlordTemplate/LandlordTemplate.cpp.i
 
-.PHONY : Lab4/lab4.i
+.PHONY : lab5/landlordTemplate/LandlordTemplate.i
 
 # target to preprocess a source file
-Lab4/lab4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SSD-Labs-Innopolis.dir/build.make CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.i
-.PHONY : Lab4/lab4.cpp.i
+lab5/landlordTemplate/LandlordTemplate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SSD-Labs-Innopolis.dir/build.make CMakeFiles/SSD-Labs-Innopolis.dir/lab5/landlordTemplate/LandlordTemplate.cpp.i
+.PHONY : lab5/landlordTemplate/LandlordTemplate.cpp.i
 
-Lab4/lab4.s: Lab4/lab4.cpp.s
+lab5/landlordTemplate/LandlordTemplate.s: lab5/landlordTemplate/LandlordTemplate.cpp.s
 
-.PHONY : Lab4/lab4.s
+.PHONY : lab5/landlordTemplate/LandlordTemplate.s
 
 # target to generate assembly for a file
-Lab4/lab4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SSD-Labs-Innopolis.dir/build.make CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.s
-.PHONY : Lab4/lab4.cpp.s
+lab5/landlordTemplate/LandlordTemplate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SSD-Labs-Innopolis.dir/build.make CMakeFiles/SSD-Labs-Innopolis.dir/lab5/landlordTemplate/LandlordTemplate.cpp.s
+.PHONY : lab5/landlordTemplate/LandlordTemplate.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SSD-Labs-Innopolis"
-	@echo "... Lab4/lab4.o"
-	@echo "... Lab4/lab4.i"
-	@echo "... Lab4/lab4.s"
+	@echo "... lab5/landlordTemplate/LandlordTemplate.o"
+	@echo "... lab5/landlordTemplate/LandlordTemplate.i"
+	@echo "... lab5/landlordTemplate/LandlordTemplate.s"
 .PHONY : help
 
 

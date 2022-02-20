@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SSD-Labs-Innopolis.dir/Lab4/lab4.cpp.o"
+  "CMakeFiles/SSD-Labs-Innopolis.dir/lab5/landlordTemplate/LandlordTemplate.cpp.o"
   "SSD-Labs-Innopolis"
   "SSD-Labs-Innopolis.pdb"
 )

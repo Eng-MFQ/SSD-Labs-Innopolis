@@ -15,34 +15,26 @@ class A {
 protected:
     int x;
 public:
-    A() { x = 0; }
-
+    A() {x = 0; }
     void increment() { x++; }
-
     virtual void decrement() { x--; }
-
-    void print() {
+     void print() {
         cout << "Hi Im A" << endl;
-        cout << "x = " << x << endl;
+//        cout << "x = " << x << endl;
     }
 };
-
 class B : public A {
 protected:
     int y;
 public:
     B(int y) { y = 0; }
-
     B() {}
-
-    void increment() { x = x + 2; }
-
-    virtual void decrement() { x = x - 2; }
-
-    void print() {
+    void increment()  { x = x + 2; }
+    virtual void decrement() override { x = x - 2; }
+     void print()  {
         cout << "Hi Im B" << endl;
-        cout << "x = " << x << endl;
-        cout << "y = " << y << endl;
+//        cout << "x = " << x << endl;
+//        cout << "y = " << y << endl;
     }
 };
 
@@ -55,6 +47,7 @@ public:
         width = a;
         height = b;
     }
+
 };
 class Output1 {
 public :
@@ -77,13 +70,11 @@ public:
     int rno, m1, m2;
     void get() { rno = 15, m1 = 10, m2 = 10; }
 };
-
 class Sports {
 public:
     int sm;
     void getsm() { sm = 10; }
 };
-
 class Statement : public Student, public Sports {
     int tot, avg;
 public:

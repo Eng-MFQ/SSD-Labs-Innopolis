@@ -6,12 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/Lab4/lab4.cpp
-lab4.h
-/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/Lab4/lab4.h
+/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/lab5/landlordTemplate/LandlordTemplate.cpp
+LandlordTemplate.h
+/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/lab5/landlordTemplate/LandlordTemplate.h
 
-/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/Lab4/lab4.h
+/Users/moofiy/Moofiy/InnoLocal/SSD-2022-labs/SSD-Labs-Innopolis/lab5/landlordTemplate/LandlordTemplate.h
 iostream
+-
+utility
 -
 vector
 -
